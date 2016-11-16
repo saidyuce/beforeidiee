@@ -30,12 +30,12 @@ var request = Sendgrid.emptyRequest({
     from: { email: 'baris_dnmz93@gmail.com' },
     content: [{
       type: 'text/plain',
-      value: 'name surname = ' + json.name 
-	    + '\nphone = ' + json.phone 
-	    + '\nemail = ' + json.email 
-	    + '\nfirst = ' + json.first 
-	    + '\nsecond = ' + json.second
-	    + '\nthird = ' + json.third
+      value: 'name surname = ' + json.name_surname 
+	    + '\n\nphone = ' + json.phone 
+	    + '\n\nemail = ' + json.email 
+	    + '\n\nfirst = ' + json.first 
+	    + '\n\nsecond = ' + json.second
+	    + '\n\nthird = ' + json.third
     }]
   }
 });
